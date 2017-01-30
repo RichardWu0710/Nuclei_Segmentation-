@@ -1,0 +1,15 @@
+clear;
+clc;
+close all;
+
+%%
+% Go to image dir 
+cd C:\Users\weida\Desktop\Nuclei_Identification
+cd Image_File
+listing = dir;
+ImgFolderList = listing(3:end).name;
+ImgFolderList = cellstr(ImgFolderList);
+cd ../
+% nTotalMaxImg
+% 
+% OutputFileName
